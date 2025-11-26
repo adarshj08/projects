@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./basketball.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="home">
+            <h3>HOME</h3>
+            <div class="home-count">
+                
+                <p id="home-score">0</p>
+                
+
+            </div>
+            <button onclick="plusone()">+1</button>
+            <button onclick="plustwo()">+2</button>
+            <button onclick="plusthree()">+3</button>
+        </div>
+        <div class="guest">
+            <h3>GUEST</h3>
+            <div class="guest-count">
+                <p id="guest-score">0</p>
+            </div>
+            <button onclick="plus1()">+1</button>
+            <button onclick="plus2()">+2</button>
+            <button onclick="plus3()">+3</button>
+            
+
+        </div>
+        <div id="Reset" class="reset" onclick="Reset()">
+            <button>RESET</button>
+        </div>
+        <script src="./basketball.js"></script>
+</body>
+
+</html>
